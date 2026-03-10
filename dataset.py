@@ -15,14 +15,4 @@
 
 # print(a, b)
 
-# Valeurs observées
-Y = [100, 140, 180]
-
-# Valeurs prédites (exemple)
-Y_hat = [110, 130, 175]
-
-# Calcul de la MSE
-mse = sum((Yi - Yhi)**2 for Yi, Yhi in zip(Y, Y_hat)) / len(Y)
-
-print(mse)
 
